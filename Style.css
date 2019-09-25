@@ -1,0 +1,167 @@
+a
+{
+    text-decoration: none;
+}
+
+.lien
+{
+    margin: 10px;
+    padding: 3Opx;
+    color: black;
+    font-family: calibri;
+}
+
+
+
+.logo_google
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo_applications
+{
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo_compte_google
+{
+    height: 30px;
+    padding-top: 0px;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+section
+{
+    display: flex;
+    height: 578px;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.barre
+{
+    width: 550px;
+    height: 37px;
+    border-radius: 25px;
+    border: 1px solid #e4e0e0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-top: 30px;*/
+}
+
+.barre:hover
+{
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input
+{
+    width: 500px;
+    height: 37px;
+    margin: 0px;
+    border: none;
+    outline: none;
+}
+
+.image_barre
+{
+    height: 25px;
+}
+
+.bloc_boutons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bouton
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    border-radius: 3px;
+    /*border: 1px;*/
+    background-color: #e4e0e0;
+    color: grey;
+}
+
+footer
+{
+    font-family: Arial;
+    color: grey;
+    background-color: #f1f3f4;
+}
+
+.footer1
+{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin: 0px;
+    height: 40px;
+}
+
+.footer2
+{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    height: 40px;
+}
+
+.footer_liens_gauche
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0px solid #e4e0e0;
+       
+}
+
+.footer_liens_droite
+{
+    display: flex;
+    justify-content: flex-end;
+    border: 0px solid #e4e0e0;
+}
+
+.liens_gauche
+{
+    padding: 0 15px 0 15px;
+    color: grey;
+}
+
+.liens_droite
+{
+    padding: 0 15px 0 15px;
+}
+
+hr
+{
+    background-color: #e4e0e0;
+    margin: 0px;
+    padding: 0px;
+}
